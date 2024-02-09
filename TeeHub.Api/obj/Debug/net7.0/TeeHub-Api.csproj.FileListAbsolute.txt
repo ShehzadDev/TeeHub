@@ -1,0 +1,7 @@
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.csproj.AssemblyReference.cache
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.AssemblyInfoInputs.cache
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.AssemblyInfo.cs
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.csproj.CoreCompileInputs.cache
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\shehz\source\repos\TeeHub\TeeHub.Api\obj\Debug\net7.0\TeeHub-Api.MvcApplicationPartsAssemblyInfo.cache

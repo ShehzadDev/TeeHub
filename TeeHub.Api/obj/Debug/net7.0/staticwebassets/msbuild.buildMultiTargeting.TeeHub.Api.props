@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TeeHub.Api.props" />
+</Project>

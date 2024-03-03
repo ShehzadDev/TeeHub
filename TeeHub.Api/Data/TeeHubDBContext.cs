@@ -18,5 +18,10 @@ namespace TeeHub.Api.Data
         public DbSet<OrderStatusHistory> OrderStatusHistories { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
 
+        public override int SaveChanges()
+        {
+            return base.SaveChanges();
+        }
+
     }
 }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TeeHub.Api.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,9 +16,9 @@ namespace TeeHub.Api.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    userName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    userName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserType = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -34,9 +34,8 @@ namespace TeeHub.Api.Migrations
                     DesignID = table.Column<int>(type: "int", nullable: false),
                     DesignColor = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DesignText = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DesignPosition = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DesignSize = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NumberOfShirts = table.Column<int>(type: "int", nullable: false)
+                    Photo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DesignSize = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -53,8 +52,7 @@ namespace TeeHub.Api.Migrations
                 name: "Feedbacks",
                 columns: table => new
                 {
-                    FeedbackID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FeedbackID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     StarsCount = table.Column<int>(type: "int", nullable: false),
                     FeedbackMessage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     FeedbackDate = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -76,7 +74,6 @@ namespace TeeHub.Api.Migrations
                 {
                     OrderID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    OrderStatus = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
@@ -118,8 +115,8 @@ namespace TeeHub.Api.Migrations
                 columns: table => new
                 {
                     OrderDetailID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    OrderID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
+                    OrderID = table.Column<Guid>(type: "uniqueidentifier", nullable: true),
                     DesignId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
                 },
                 constraints: table =>
@@ -134,8 +131,7 @@ namespace TeeHub.Api.Migrations
                         name: "FK_OrderDetails_Orders_OrderID",
                         column: x => x.OrderID,
                         principalTable: "Orders",
-                        principalColumn: "OrderID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "OrderID");
                 });
 
             migrationBuilder.CreateTable(

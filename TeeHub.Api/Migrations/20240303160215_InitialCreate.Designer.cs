@@ -12,8 +12,8 @@ using TeeHub.Api.Data;
 namespace TeeHub.Api.Migrations
 {
     [DbContext(typeof(TeeHubDBContext))]
-    [Migration("20240203145155_Initial Migration")]
-    partial class InitialMigration
+    [Migration("20240303160215_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,17 +60,14 @@ namespace TeeHub.Api.Migrations
                     b.Property<int>("DesignID")
                         .HasColumnType("int");
 
-                    b.Property<string>("DesignPosition")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("DesignSize")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DesignText")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("NumberOfShirts")
-                        .HasColumnType("int");
+                    b.Property<string>("Photo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -79,11 +76,9 @@ namespace TeeHub.Api.Migrations
 
             modelBuilder.Entity("TeeHub.Api.Models.Domain.Feedback", b =>
                 {
-                    b.Property<int>("FeedbackID")
+                    b.Property<Guid>("FeedbackID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FeedbackID"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("FeedbackDate")
                         .HasColumnType("datetime2");
@@ -113,9 +108,6 @@ namespace TeeHub.Api.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("OrderStatus")
-                        .HasColumnType("int");
-
                     b.Property<Guid?>("UserId")
                         .HasColumnType("uniqueidentifier");
 
@@ -135,7 +127,7 @@ namespace TeeHub.Api.Migrations
                     b.Property<Guid?>("DesignId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("OrderID")
+                    b.Property<Guid?>("OrderID")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Quantity")
@@ -184,18 +176,15 @@ namespace TeeHub.Api.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserType")
                         .HasColumnType("int");
 
                     b.Property<string>("userName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -255,9 +244,7 @@ namespace TeeHub.Api.Migrations
 
                     b.HasOne("TeeHub.Api.Models.Domain.Order", "Order")
                         .WithMany()
-                        .HasForeignKey("OrderID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OrderID");
 
                     b.Navigation("Design");
 

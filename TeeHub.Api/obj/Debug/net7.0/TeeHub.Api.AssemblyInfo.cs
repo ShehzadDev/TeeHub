@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4dbc2619-d102-4d23-805e-325a35660cb8")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TeeHub.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a2088152738c8283f3e2381e58d44aeb1bb635d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TeeHub.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TeeHub.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144512_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144428_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144332_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\orderstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\orderstatushistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\design.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\design.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\data\\teehubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\data\\teehubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|c:\\users\\shoaib\\source\\repos\\teehub\\teehub.api\\models\\domain\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56C7821-5B31-4ABB-8F58-CE448EE06B48}|TeeHub.Api\\TeeHub.Api.csproj|solutionrelative:teehub.api\\models\\domain\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "TeeHub.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\appsettings.json",
+              "RelativeToolTip": "TeeHub.Api\\appsettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAD4vw4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-16T08:07:00.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Program.cs",
+              "RelativeToolTip": "TeeHub.Api\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T08:01:13.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\User.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\User.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderStatusHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\OrderStatusHistory.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\OrderStatusHistory.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\OrderStatusHistory.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\OrderStatusHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Cart.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\Cart.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Cart.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Design.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Design.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\Design.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Design.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\Design.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\Order.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Order.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\OrderDetail.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240203144512_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144512_Initial Migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144512_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144512_Initial Migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144512_Initial Migration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T14:45:12.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240203144428_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144428_Initial Migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144428_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144428_Initial Migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144428_Initial Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T14:44:28.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240203144332_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144332_Initial Migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144332_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144332_Initial Migration.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\shehz\\source\\repos\\TeeHub\\TeeHub.Api\\Migrations\\20240203144332_Initial Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-03T14:43:33.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TeeHubDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Data\\TeeHubDBContext.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Data\\TeeHubDBContext.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Data\\TeeHubDBContext.cs",
+              "RelativeToolTip": "TeeHub.Api\\Data\\TeeHubDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Feedback.cs",
+              "RelativeDocumentMoniker": "TeeHub.Api\\Models\\Domain\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Shoaib\\source\\repos\\TeeHub\\TeeHub.Api\\Models\\Domain\\Feedback.cs",
+              "RelativeToolTip": "TeeHub.Api\\Models\\Domain\\Feedback.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T14:29:01.478Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

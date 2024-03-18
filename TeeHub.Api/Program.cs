@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using TeeHub.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,17 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+    //options =>
+    //{
+    //    options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
+    //    {
+    //        In=ParameterLocation.Header,
+    //        Name="Authorization",
+    //        Type=SecuritySchemeType.ApiKey,
+
+
+    //    });
+    //} );
 builder.Services.AddDbContext<TeeHubDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("TeeHubConnectionString"));
